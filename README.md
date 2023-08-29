@@ -29,6 +29,27 @@
 
 Если картинка сохранена локально, на неё нужно сгенерировать ссылку. То есть картинку надо _захостить_. Воспользуйтесь для этого сервисом для хостинка картинов, например, [этим](https://imgbox.com/).
 
+## Project structer / Структура проекта
+
+Если проект большой и в нём много папок -- добавьте описание структуры проекта. 
+Например
+
+    .
+    ├── build                     # Compiled files (alternatively `dist`)
+    ├── docs                      # Documentation files (alternatively `doc`)
+    ├── src                       # Source files (alternatively `lib` or `app`)
+    ├── models                    # Test files (alternatively `spec` or `tests`)
+    │   ├── log_reg.ipynb         # Logistic regression model
+    │   ├── random_forest.ipynb   # Random Forest model
+    │   └── naive_bayes.ipynb     # Naive Bayes model
+    
+    ├── tools                     # Tools and utilities
+    
+    ├── requirements.txt          # Requirements 
+    ├── main.py                   # Main file with ...
+    └── ...
+    ├── LICENSE
+    └── README.md
 
 ## Getting started / Установка
 
